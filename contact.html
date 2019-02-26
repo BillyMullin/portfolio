@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Billy Mullin</title>
+  <title>Contact | Billy Mullin</title>
   <link rel="stylesheet" type="text/css" href="/Users/WHM3/coding_bootcamp/homework/portfolio/style2.css">
 </head>
 
@@ -22,14 +22,25 @@
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
+      <h1>Contact</h1>
 
-      <img src="/Users/WHM3/WHM3/2016-07-03 20.26.22.000.jpg" class="auth-image" alt="Billy Mullin">
-
-      <p>Im Billy and I am 22 years old.I like to skateboard and take pictures on my free time. I've been skateboarding for 16 years and I like to take pictures of landscapes.</p>
-      <p>Ive lived in California my whole life and just recently moved to Kansas City a few months ago and really love it here.</p>
-
-      <p></p>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Billy Mullin</label>
+            <input type="text" id="name" name="name" placeholder="Billy Mullin" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="whmiiiphoto@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
     </section>
 
